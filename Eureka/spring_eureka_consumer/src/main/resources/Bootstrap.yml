@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: thomas-service-consumer
+    message: Dies ist ein Test!
