@@ -1,0 +1,7 @@
+server:
+  port: 0
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+    instanceId: ${spring.application.name}:${random.value}
